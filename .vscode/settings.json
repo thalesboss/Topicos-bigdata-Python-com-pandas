@@ -1,0 +1,18 @@
+{
+    "cSpell.language": "en,pt-BR",
+    "cSpell.words": [
+        "codigo",
+        "toleravel",
+        "Ocorrencia",
+        "MCHOLINKS",
+        "Multiview"
+    ],
+    "python-envs.defaultEnvManager": "ms-python.python:system",
+    "editor.quickSuggestions": {
+        "other": "on",
+        "comments": "off",
+        "strings": "off"
+    },
+    "editor.suggestOnTriggerCharacters": true,
+    "python.analysis.autoImportCompletions": true
+}
