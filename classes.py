@@ -302,8 +302,6 @@ class DataLoaderETL:
         return self._df_normalizado
 
 
-
-
 class AnalisadorSAD:
     """
     Motor de regras de negócio e cálculos analíticos do Sistema de Apoio à Decisão.
@@ -317,6 +315,12 @@ class AnalisadorSAD:
         """
         Filtra as ocorrências de falhas dentro de um intervalo de datas fornecido (RF03).
         """
+        if "data_referencia" not in self._df_falhas.columns:
+            raise ValueError("A tabela precisa ter a coluna 'data_referencia'.")
+
+        inicio = pd.to_datetime(data_inicio, format='%d/%m/%Y')
+        fim = pd.to_datetime(data_fim, format='%d/%m/%Y')      
+
         pass
 
     def filtrar_por_familia(self, categoria: str) -> pd.DataFrame:
