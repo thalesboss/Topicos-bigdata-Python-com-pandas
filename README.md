@@ -147,6 +147,7 @@ Topicos-bigdata-Python-com-pandas/
 - **Rodrigo**
 - **Thales Motta**
 - **Davi Mendonça**
+- **Rodrigo Coelho**
 
 ---
 
@@ -278,4 +279,4 @@ Topicos-bigdata-Python-com-pandas/
 - **Rodrigo**
 - **Thales Motta**
 - **Davi Mendonça**
-- - **Rodrigo Coelho**
+- **Rodrigo Coelho**
